@@ -1,0 +1,5 @@
+mercadoria = float(input("Digite o valor da mercadoria: "))
+desconto = float(input("Digite o valor do desconto: "))
+valor_final = mercadoria - (mercadoria * desconto / 100)
+print("O valor final da mercadoria com desconto é: ", valor_final)
+print("O valor do desconto é: ", desconto / 100 * mercadoria)
